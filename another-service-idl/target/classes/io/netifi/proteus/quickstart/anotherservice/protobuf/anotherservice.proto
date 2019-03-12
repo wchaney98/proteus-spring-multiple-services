@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package io.netifi.proteus.quickstart.anotherservice;
+
+option java_package = "io.netifi.proteus.quickstart.anotherservice.protobuf";
+option java_outer_classname = "AnotherServiceProto";
+option java_multiple_files = true;
+
+service AnotherHelloService {
+
+    // Returns a Hello World Message
+    rpc AnotherSayHello (AnotherHelloRequest) returns (AnotherHelloResponse) {}
+}
+
+message AnotherHelloRequest {
+    string name = 1;
+}
+
+message AnotherHelloResponse {
+    string message = 1;
+}
