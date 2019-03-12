@@ -1,7 +1,7 @@
 package io.netifi.proteus.quickstart.client;
 
-import io.netifi.proteus.quickstart.anotherservice.protobuf.AnotherHelloRequest;
-import io.netifi.proteus.quickstart.anotherservice.protobuf.AnotherHelloServiceClient;
+import io.netifi.proteus.quickstart.protobuf.AnotherHelloRequest;
+import io.netifi.proteus.quickstart.protobuf.AnotherHelloServiceClient;
 import io.netifi.proteus.quickstart.service.protobuf.HelloRequest;
 import io.netifi.proteus.quickstart.service.protobuf.HelloServiceClient;
 import io.netifi.proteus.spring.core.annotation.Group;

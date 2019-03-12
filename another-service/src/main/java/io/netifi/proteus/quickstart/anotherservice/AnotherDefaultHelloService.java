@@ -1,6 +1,6 @@
 package io.netifi.proteus.quickstart.anotherservice;
 
-import io.netifi.proteus.quickstart.anotherservice.protobuf.*;
+import io.netifi.proteus.quickstart.protobuf.*;
 import io.netty.buffer.ByteBuf;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
