@@ -43,7 +43,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>io.netifi.proteus.quickstart.anotherservice.Main</mainClass>
+                    <mainClass>io.netifi.proteus.quickstart.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>

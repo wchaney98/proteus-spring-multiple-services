@@ -1,4 +1,4 @@
-package io.netifi.proteus.quickstart.anotherservice;
+package io.netifi.proteus.quickstart;
 
 import io.netifi.proteus.quickstart.protobuf.*;
 import io.netty.buffer.ByteBuf;
